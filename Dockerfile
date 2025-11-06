@@ -7,7 +7,6 @@ COPY *.sln .
 
 # 2. Copiar CADA diretório de projeto referenciado pelo .sln
 # O erro mostrou que precisamos destes quatro:
-COPY LoLChampionsAPI.API/ ./LoLChampionsAPI.API/
 COPY LoLChampionsAPI.Dominio/ ./LoLChampionsAPI.Dominio/
 COPY LoLChampionsAPI.Aplicacao/ ./LoLChampionsAPI.Aplicacao/
 COPY LoLChampionsAPI.Infra/ ./LoLChampionsAPI.Infra/
